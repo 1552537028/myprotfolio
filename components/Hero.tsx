@@ -19,11 +19,11 @@ const Hero = () => {
             <div className='flex justify-center relative my-20 z-10'>
               <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
                <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                 Hello, I'm JAYANTH
+                 Hello, I`&apos`m JAYANTH
                </h2>
                <br/>
                <div className='text-center md:tracking-widest mb-4 text-lg md:text-lg lg:text-4xl'>
-                 I'm, <FlipWords words={["UI&UX Designer","WEB-Developer","Digital Marketer","SEO"]} />
+                 I`&apos;`m, <FlipWords words={["UI&UX Designer","WEB-Developer","Digital Marketer","SEO"]} />
                </div>
                
                <TextGenerateEffect
