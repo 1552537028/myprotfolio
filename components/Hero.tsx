@@ -32,7 +32,7 @@ const Hero = () => {
                />
                <a href='#About'>
                 <MagicButton
-                title="Show my works" icon={undefined} position={''}/>
+                title="About Me" icon={undefined} position={''}/>
                </a>
              </div>
            </div>

@@ -44,8 +44,11 @@ export const ContactUs = () => {
             <a href='https://www.instagram.com/jayanthk.06?igsh=MW81eDgwdGV1MHZ0Zg==' className='p-4'>
             <i class="fa-brands fa-instagram text-xl"></i>
             </a>
-             <a href='https://www.instagram.com/jayanthk.06?igsh=MW81eDgwdGV1MHZ0Zg==' className='p-4 space-x-4'>
+             <a href='https://www.linkedin.com/in/jayanth-kopparthi-b2599530b' className='p-4 space-x-4'>
               <i class="fa-brands fa-linkedin text-xl"></i>
+              </a>
+              <a href='https://github.com/1552537028'className='p-4'>
+              <i class="fa-brands fa-github"></i>
               </a>
           </div>
        </div>
