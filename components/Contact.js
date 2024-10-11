@@ -23,6 +23,10 @@ export const ContactUs = () => {
       );
   };
 
+  const send =()=>{
+    alert('thank you!')
+  }
+
   return (
     <section id='Contactme'>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -66,7 +70,7 @@ export const ContactUs = () => {
               <label htmlFor="message" className="block text-gray-700 font-semibold">Message</label>
               <textarea name="message" placeholder="Your Message" className="w-full px-4 py-2 border rounded-xl focus:outline-none focus:ring focus:border-blue-300" required></textarea>
             </div>
-            <button type="submit" className="bg-white text-black p-4 rounded-2xl">Send</button>
+            <button type="submit" className="bg-white text-black p-4 rounded-2xl" onClick={send}>Send</button>
           </form>
         </div>
       </div>
