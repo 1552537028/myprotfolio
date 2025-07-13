@@ -21,10 +21,10 @@ export default function Home() {
         <About/>
         <br/>
         <br/>
-        <CardHoverEffectDemo/>
-        <br/>
-        <br/>
         <Grid/>
+        <br/>
+        <br/>
+        <CardHoverEffectDemo/>
         <Approch/>
         </TracingBeam>
         <ContactUs/>

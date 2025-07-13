@@ -6,8 +6,8 @@ import { title } from "process";
 
 export function Grid() {
   return (
-  <section id="Services">
-    <p className='heading'>Services</p>
+  <section id="Skills">
+    <p className='heading'>Skills</p>
    <div className="w-full mt-12 grid grid-cols-1 lg:grid-cols-3 gap-7">
   {items.map((item) =>(  
   <Button 
@@ -31,17 +31,22 @@ export function Grid() {
 }
 const items=[
   {
-    title:'UI&UX-desging'
+    title:'UI&UX-design'
 },
 {
   title:'web-development'
-},
-{
-  title:'App development(IOS & Android)'
 },
 {
   title:'SEO & SEM'
 },
 {
   title:'Digital Marketing'
-}]
+},
+{ 
+  title:'App Development' 
+},
+{
+  title: 'Gpt building'
+}
+
+]

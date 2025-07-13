@@ -3,7 +3,7 @@ import { HoverEffect } from "./ui/card-hover-effect";
 export function CardHoverEffectDemo() {
   return (
     <div id="Skills">
-      <h1 className="heading text-orange-300">Skills</h1>
+      <h1 className="heading text-orange-300">Tools</h1>
       <div className="max-w-5xl mx-auto">
        <HoverEffect items={projects} />
       </div>
@@ -12,12 +12,12 @@ export function CardHoverEffectDemo() {
 }
 export const projects = [
   {
-    title: "ReactJs",
+    title: "AI",
     description:"",
     link:'#Skills',
   },
   {
-    title: "NextJs",
+    title: "NodeJs",
     description:"",
     link:'#Skills',
   },

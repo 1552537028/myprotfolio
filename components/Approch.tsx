@@ -12,17 +12,13 @@ const Approch=()=> {
             My <span className="text-purple">Approach</span> 
         </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
-        <Card title="Discuss&Planning" icon={<MagicButton title={'Phase-1'} icon={undefined} position={""}/>} description="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements.">
+        <Card title="Research" icon={<MagicButton title={'Phase-1'} icon={undefined} position={""}/>} description="I will conduct thorough research to understand your industry, future scope, new-technologies, tools, competitors, and target audience.">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card title="Designing" icon={<MagicButton title={'Phase-2'} icon={undefined} position={""} />}description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way.">
+        <Card title="Ideate" icon={<MagicButton title={'Phase-2'} icon={undefined} position={""} />}description="This is where the magic happens! Based on the research, I will brainstorm and generate creative ideas to solve your problem. and make swot analysis to find the best solution and design the architecture of the solution.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"
@@ -35,9 +31,7 @@ const Approch=()=> {
           {/* Radial gradient for the cute fade */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
-        <Card title="Development" icon={<MagicButton title={'Phase-3'} icon={undefined} position={""} />}description="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up.">
+        <Card title="Development" icon={<MagicButton title={'Phase-3'} icon={undefined} position={""} />}description="I will bring the ideas to life by developing a prototype or minimum viable product (MVP). This will allow us to test the concept and gather feedback before moving forward.">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"

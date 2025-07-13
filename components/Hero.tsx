@@ -23,12 +23,12 @@ const Hero = () => {
                </h2>
                <br/>
                <div className='text-center md:tracking-widest mb-4 text-lg md:text-lg lg:text-4xl'>
-                 I &apos;m, <FlipWords words={["UI&UX Designer","Developer","Digital Marketer"]} />
+                  <FlipWords words={["Engineer","Entrepreneur","Researcher"]} />
                </div>
                
                <TextGenerateEffect
-               className="text-center text-[30px] md:text-5xl lg:text-5xl"
-               words="The one tech team ready to bring your next big idea to life"
+               className="text-center text-[30px] md:text-5xl lg:text-5xl w-full"
+               words="Engineering the Future. Solving Today."
                />
                <a href='#About'>
                 <MagicButton
