@@ -34,7 +34,7 @@ export const ContactUs = () => {
           </h1>
           <br />
           <p>
-            If you have any work from me or any questions and feedback, it’s love to hear from you. Just text it here, we'll respond as soon as possible.
+            If you have any work from me or any questions and feedback, it&apos;s love to hear from you. Just text it here, we&apos;ll respond as soon as possible.
           </p>
           <br />
           <div className='lg:flex flex-col'>
